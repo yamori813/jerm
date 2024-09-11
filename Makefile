@@ -18,7 +18,7 @@ jerm: $(OBJS)
 	$(CC) $(LDFLAGS) -o $@ $(OBJS) $(LDLIBS)
 
 clean:
-	rm -f $(OBJS) jerm $(.CURDIR)/errs tiocdtr
+	rm -rf $(OBJS) jerm $(.CURDIR)/errs tiocdtr tiocdtr.dSYM
 
 V=jerm-8096
 FILES=README Makefile $(SRCS) jerm.1 tiocdtr.c \
