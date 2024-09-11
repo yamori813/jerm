@@ -1583,6 +1583,7 @@ static char *usage_msg =
 	"\t-r cccc\tset CR LF mapping. (default = rnrn)\n"
 	"\t\tc = {x=drop, r=CR, n=LF, t=CRLF}\n"
 	"\t\toption order = {recv CR, recv NL, send CR, send LF}\n"
+	"\t-e\tlocalecho\n"
 #ifdef JUPITER
 	"\t-j\trockwell binary data mode\n"
 #endif
